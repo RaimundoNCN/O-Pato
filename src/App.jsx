@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import patotimido from './assets/patio.jpg'
+import PublicRoutes from './Routes/publicRoutes'
 
 
 function App() {
@@ -7,26 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>O Pato Timido</h1>
-      <div>
-        <img src={patotimido} className="perfilPato" alt="perfilPato" />
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Olá Mundo! {count}
-        </button>
-        <p>
-          Vire amigo do Pato, fale com ele!😊
-        </p>
-        <textarea className="message"></textarea>
-      </div> 
-      
-      <div>
-        <button className='click'>Enviar</button>
-      </div>
-      <p className="read-the-docs">
-        Desenvolvendo um App React
-      </p>
+      <PublicRoutes/>
     </>
   )
 }
