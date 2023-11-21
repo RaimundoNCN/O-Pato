@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import PublicRoutes from './Routes/publicRoutes'
+import { useState } from 'react';
+import PublicRoutes from './Routes/publicRoutes';
 
 
 function App() {
