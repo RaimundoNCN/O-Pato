@@ -1,7 +1,11 @@
-import Title from "../home/Components/title";
+import PerfilPato from "./perfil/perfilPato";
 
-const Home = () => {
+const Home = () =>{
     return(
-        <Title/>
-    )
+        <>
+        <PerfilPato/>
+        </>
+    );
 }
+
+export default Home;

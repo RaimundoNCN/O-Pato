@@ -1,14 +1,9 @@
-import { useState } from 'react';
-import PublicRoutes from './Routes/publicRoutes';
-
+import Home from "./home/index";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <PublicRoutes/>
-    </>
+      <Home/>
   )
 }
 
