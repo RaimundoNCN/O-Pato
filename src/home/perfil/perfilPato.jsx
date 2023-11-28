@@ -1,14 +1,14 @@
-import { Container, ImgPerfil, NamePerfil, InfoLevelPerfil, LevelPerfil } from "./style";
+import { Container, ImgPerfil, NamePerfil, ContainerPerfil, Descriptions } from "./style";
 import PerfilImg from "../../assets/patio.jpg";
 
 const PerfilPato = () => {
     return(
         <Container>
-           
-            <ImgPerfil img src={PerfilImg} alt="Deu ruim" title="Perfil"></ImgPerfil>
-            <NamePerfil>O Pato</NamePerfil>
-            <InfoLevelPerfil>Nivel de maldade:</InfoLevelPerfil>
-            <LevelPerfil>8000!!!</LevelPerfil>
+            <ContainerPerfil>
+                <ImgPerfil img src={PerfilImg} alt="Deu ruim" title="Perfil"></ImgPerfil>
+                <NamePerfil>O Pato</NamePerfil> 
+            </ContainerPerfil>
+            <Descriptions>Texto</Descriptions>
         </Container>
     )
 }
